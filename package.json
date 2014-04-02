@@ -1,0 +1,19 @@
+{
+  "name": "BioInJS",
+  "version": "0.0.0",
+  "description": "BioInformatics Tools in Javascript",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "BioInJS"
+  },
+  "keywords": [
+    "BioInformatics",
+    "Javascript"
+  ],
+  "author": "Hua Su",
+  "license": "BSD-2-Clause"
+}
