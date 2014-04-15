@@ -1,0 +1,48 @@
+         ec    h              ec    h              ec    h             ec     h
+F - UUU 22.0 16.6    S   UCU  9.3 14.5    Y - UAU 16.7 12.1    C   UGU  5.2  9.7
+F   UUC 16.5 20.7    S   UCC  8.9 17.7    Y   UAC 12.3 16.3    C - UGC  6.3 12.4
+L   UUA 13.8  7.0    S   UCA  7.9 11.4    *   UAA  2.0  0.7    *   UGA  1.0  1.3
+L   UUG 13.3 12.0    S   UCG  8.7  4.5    *   UAG  0.3  0.5    W - UGG 14.5 13.0
+   	 	            	             	         	  	   			   
+L   CUU 11.3 12.4    P   CCU  7.2 17.2    H - CAU 12.7 10.1    R   CGU 20.7  4.7
+L   CUC 10.6 19.3    P x CCC  5.4 20.3    H   CAC  9.6 14.9    R - CGC 21.1 11.0
+L x CUA  4.0  6.8    P   CCA  8.5 16.5    Q   CAA 14.8 11.8    R   CGA  3.7  6.2
+L - CUG 50.9 40.0    P - CCG 22.3  7.1    Q - CAG 28.8 34.4    R x CGG  5.7 11.6
+   	 	            	             	         	  	   			   
+I   AUU 29.9 15.7    T   ACU  9.5 12.7    N   AAU 18.7 16.8    S   AGU  9.1 11.7
+I - AUC 24.6 22.3    T - ACC 22.7 19.9    N - AAC 21.6 20.2    S - AGC 15.6 19.3
+I x AUA  5.3  7.0    T   ACA  7.9 14.7    K - AAA 34.4 23.6    R x AGA  2.7 11.2
+M - AUG 27.2 22.2    T   ACG 14.0  6.4    K   AAG 11.4 33.2    R x AGG  1.6 11.1
+   	 	            	             	         	  	   			   
+V   GUU 19.1 10.7    A   GCU 16.2 18.4    D - GAU 32.3 22.2    G   GGU 25.1 10.9
+V   GUC 14.8 14.8    A - GCC 25.0 28.6    D   GAC 19.3 26.5    G - GGC 28.6 23.1
+V   GUA 11.2  6.8    A   GCA 20.6 15.6    E - GAA 39.5 28.6    G x GGA  8.6 16.4
+V - GUG 25.5 29.3    A   GCG 32.2  7.7    E   GAG 18.5 40.6    G   GGG 11.1 16.5
+
+
+- use this codon
+x dont use this codon
+
+A - GCC 25.0 28.6
+C - UGC  6.3 12.4
+D - GAU 32.3 22.2
+E - GAA 39.5 28.6
+F - UUU 22.0 16.6
+G - GGC 28.6 23.1
+H - CAU 12.7 10.1
+I - AUC 24.6 22.3
+K - AAA 34.4 23.6
+L - CUG 50.9 40.0
+M - AUG 27.2 22.2
+N - AAC 21.6 20.2
+P - CCG 22.3  7.1
+Q - CAG 28.8 34.4
+R - CGC 21.1 11.0
+S - AGC 15.6 19.3
+T - ACC 22.7 19.9
+V - GUG 25.5 29.3
+W - UGG 14.5 13.0
+Y - UAU 16.7 12.1
+*   UAA  2.0  0.7
+*   UGA  1.0  1.3
+*   UAG  0.3  0.5

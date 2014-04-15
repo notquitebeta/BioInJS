@@ -1,0 +1,7 @@
+  6 Equiv positions, P3112      SG # 151
+X, Y, Z
+-Y, X-Y, Z+1/3
+-X+ Y, -X, Z+2/3
+-Y, -X, -Z+2/3
+-X+ Y, Y, -Z+1/3
+X, X-Y, -Z

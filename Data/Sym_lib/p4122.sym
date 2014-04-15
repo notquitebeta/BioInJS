@@ -1,0 +1,9 @@
+  8 Equiv positions, P4122      SG #  91
+X, Y, Z
+-X, -Y, Z+1/2
+-Y, X, Z+1/4
+Y, -X, Z+3/4
+-X, Y, -Z
+X, -Y, -Z+1/2
+Y, X, -Z+3/4
+-Y, -X, -Z+1/4

@@ -1,0 +1,7 @@
+  6 Equiv positions, P64        SG # 172
+X, Y, Z
+-Y, X-Y, Z+1/3
+-X+ Y, -X, Z+2/3
+-X, -Y, Z
+Y, -X+ Y, Z+1/3
+X-Y, X, Z+2/3

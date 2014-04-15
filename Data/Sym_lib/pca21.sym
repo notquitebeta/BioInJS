@@ -1,0 +1,5 @@
+  4 Equiv positions, PCA21      SG #  29
+X, Y, Z
+-X, -Y, Z+1/2
+X+1/2, -Y, Z
+-X+1/2, Y, Z+1/2

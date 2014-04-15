@@ -1,0 +1,7 @@
+  6 Equiv positions, P312       SG # 149
+X, Y, Z
+-Y, X-Y, Z
+-X+ Y, -X, Z
+-Y, -X, -Z
+-X+ Y, Y, -Z
+X, X-Y, -Z

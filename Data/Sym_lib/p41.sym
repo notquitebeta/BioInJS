@@ -1,0 +1,5 @@
+  4 Equiv positions, P41        SG #  76
+X, Y, Z
+-X, -Y, Z+1/2
+-Y, X, Z+1/4
+Y, -X, Z+3/4

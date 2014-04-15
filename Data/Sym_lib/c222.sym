@@ -1,0 +1,9 @@
+  8 Equiv positions, C222       SG #  21
+X, Y, Z
+-X, -Y, Z
+-X, Y, -Z
+X, -Y, -Z
+X+1/2, Y+1/2, Z
+-X+1/2, -Y+1/2, Z
+-X+1/2, Y+1/2, -Z
+X+1/2, -Y+1/2, -Z

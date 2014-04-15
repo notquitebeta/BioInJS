@@ -1,0 +1,9 @@
+  8 Equiv positions, PCCA       SG #  54
+X, Y, Z
+-X+1/2, -Y, Z
+-X, Y, -Z+1/2
+X+1/2, -Y, -Z+1/2
+-X, -Y, -Z
+X+1/2, Y, -Z
+X, -Y, Z+1/2
+-X+1/2, Y, Z+1/2

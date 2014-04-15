@@ -1,0 +1,23 @@
+Alanine        ala a                  CHHH-CH(NHH)-COOH
+Arginine       arg r  HN=C(NHH)-NH-(CHH)(CHH)(CHH)-CH(NHH)-COOH
+Asparagine     asn n           HHN-CO-CHH-CH(NHH)-COOH
+Aspartic acid  asp d             HOOC-CHH-CH(NHH)-COOH
+Cysteine       cys c               HS-CHH-CH(NHH)-COOH
+Glutamine      gln q        HHN-CO-(CHH)(CHH)-CH(NHH)-COOH
+Glutamic acid  glu e          HOOC-(CHH)(CHH)-CH(NHH)-COOH
+Glycine        gly g                      NHH-CHH-COOH
+Histidine      his h       NH-CH=N-CH=C-CHH-CH(NHH)-COOH
+                           |__________|
+Isoleucine     ile i      CHHH-CHH-CH(CHHH)-CH(NHH)-COOH
+Leucine        leu l        (CHHH)(CHHH)-CH-CHH-CH(NHH)-COOH
+Lysine         lys k           HHN-(CHH)(CHH)(CHH)(CHH)-CH(NHH)-COOH
+Methionine     met m         CHHH-S-(CHH)(CHH)-CH(NHH)-COOH
+Phenylalanine  phe f               Ph-CHH-CH(NHH)-COOH
+Proline        pro p                 NH-(CHH)(CHH)-CH-COOH
+                                     |_________|
+Serine         ser s               HO-CHH-CH(NHH)-COOH
+Threonine      thr t           CHHH-CH(OH)-CH(NHH)-COOH
+Tryptophan     trp w       Ph-NH-CH=C-CHH-CH(NHH)-COOH
+                            |_______|
+Tyrosine       tyr y          HO-p-Ph-CHH-CH(NHH)-COOH
+Valine         val v            (CHHH)(CHHH)-CH-CH(NHH)-COOH

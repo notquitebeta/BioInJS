@@ -1,0 +1,25 @@
+ 24 Equiv positions, P432       SG # 207
+X, Y, Z
+-X, -Y, Z
+-X, Y, -Z
+X, -Y, -Z
+Z, X, Y
+Z, -X, -Y
+-Z, -X, Y
+-Z, X, -Y
+Y, Z, X
+-Y, Z, -X
+Y, -Z, -X
+-Y, -Z, X
+Y, X, -Z
+-Y, -X, -Z
+Y, -X, Z
+-Y, X, Z
+X, Z, -Y
+-X, Z, Y
+-X, -Z, -Y
+X, -Z, Y
+Z, Y, -X
+Z, -Y, X
+-Z, Y, X
+-Z, -Y, -X

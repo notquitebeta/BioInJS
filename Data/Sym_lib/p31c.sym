@@ -1,0 +1,7 @@
+  6 Equiv positions, P31C       SG # 159
+X, Y, Z
+-Y, X-Y, Z
+-X+ Y, -X, Z
+Y, X, Z+1/2
+X-Y, -Y, Z+1/2
+-X, -X+ Y, Z+1/2

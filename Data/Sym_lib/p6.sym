@@ -1,0 +1,7 @@
+  6 Equiv positions, P6         SG # 168
+X, Y, Z
+-Y, X-Y, Z
+-X+ Y, -X, Z
+-X, -Y, Z
+Y, -X+ Y, Z
+X-Y, X, Z

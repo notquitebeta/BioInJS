@@ -1,0 +1,5 @@
+  4 Equiv positions, P2221      SG #  17
+X, Y, Z
+-X, -Y, Z+1/2
+-X, Y, -Z+1/2
+X, -Y, -Z

@@ -1,5 +1,33 @@
-var mw = require('./aminoAcids'),
-    aaList = mw.aminoAcidsList.sort(); // list of valid residues
+
+var molWeightAminoAcids = {
+G :  57.05132 ,
+A :  71.0779   ,
+S :  87.0773   ,
+P :  97.11518  ,
+V :  99.13106  ,
+T :  101.10388 ,
+C :  103.1429  ,
+I :  113.15764 ,
+L :  113.15764 ,
+N :  114.10264 ,
+D :  115.0874  ,
+Q :  128.12922 ,
+K :  128.17228 ,
+E :  129.11398 ,
+M :  131.19606 ,
+H :  137.13928 ,
+F :  147.17386 ,
+R :  156.18568 ,
+Y :  163.17326 ,
+W :  186.2099 
+}
+
+var aminoAcidsList = ['G', 'A', 'S', 'P', 'V', 
+                          'T', 'C', 'I', 'L', 'N', 
+                          'D', 'Q', 'K', 'E', 'M', 
+                          'H', 'F', 'R', 'Y', 'W']
+
+var aaList = aminoAcidsList.sort(); // list of valid residues
 
 function Protein(seq) {
   // sequence must be all caps
@@ -119,5 +147,3 @@ Protein.prototype.formatOutput = function (spaceLength, lineLength, sequence) {
   }
   return outputSequence;
 }
-
-module.exports= Protein;

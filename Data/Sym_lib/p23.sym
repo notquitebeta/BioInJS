@@ -1,0 +1,13 @@
+ 12 Equiv positions, P23        SG # 195
+X, Y, Z
+-X, -Y, Z
+-X, Y, -Z
+X, -Y, -Z
+Z, X, Y
+Z, -X, -Y
+-Z, -X, Y
+-Z, X, -Y
+Y, Z, X
+-Y, Z, -X
+Y, -Z, -X
+-Y, -Z, X

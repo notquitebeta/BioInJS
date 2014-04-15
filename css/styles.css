@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(218, 228, 235);
+}
+
+h1 {
+  text-align: center;
+}
+#sequenceTitle {
+
+}
+
+#sequenceBox {
+  width: 92%;
+  margin-left: 2%;
+}
+
+#sequenceBox {
+  rows :4 ;
+  resize: none;
+  /*white-space: nowrap;*/
+  overflow: auto;
+  height: 5.6em;
+  font-family: monospace;
+  spellcheck="false"
+}
+
+.btn-sideways {
+  /* Abs positioning makes it not take up vert space */ 
+  position: absolute;
+/*  top: 0;
+  left: 0;*/
+
+  /* Border is the new background */
+  /*background: none;*/
+
+  /* Rotate from top left corner (not default) */
+  -webkit-transform-origin: 12px 11px;
+  -moz-transform-origin:    12px 11px;
+  -ms-transform-origin:     12px 11px;
+  -o-transform-origin:      12px 11px;
+
+  -webkit-transform: rotate(90deg); 
+  -moz-transform:    rotate(90deg); 
+  -ms-transform:     rotate(90deg); 
+  -o-transform:      rotate(90deg); 
+}
+
+.disable {
+  opacity: 0.5;
+}
+
+.hidden {
+  display:none;
+}
+
+.centered {
+  margin: 0 auto;
+}

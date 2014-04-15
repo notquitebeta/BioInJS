@@ -1,0 +1,5 @@
+  4 Equiv positions, PNC2       SG #  30
+X, Y, Z
+-X, -Y, Z
+X, -Y+1/2, Z+1/2
+-X, Y+1/2, Z+1/2
