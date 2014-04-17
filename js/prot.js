@@ -58,8 +58,8 @@ Protein.prototype.mw = function() {
 
   // Add molecular weights for all valid residues
   sequenceArray.forEach(function(element, index, array) {
-    if (mw.molWeightAminoAcids[element]) {
-      weight += mw.molWeightAminoAcids[element];
+    if (molWeightAminoAcids[element]) {
+      weight += molWeightAminoAcids[element];
       residueCount++;
     } 
   });

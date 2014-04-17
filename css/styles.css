@@ -45,6 +45,21 @@ h1 {
   -o-transform:      rotate(90deg); 
 }
 
+.computed {
+  margin: 10px 15px 25px 5px;
+  border: 2px 2px;
+}
+
+.computed infobox{
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.computed ul{
+    list-style-type: none;
+}
+
 .disable {
   opacity: 0.5;
 }

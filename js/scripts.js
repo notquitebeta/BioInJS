@@ -21,6 +21,8 @@ function parseURL(sequenceBox){
     var p = new Protein(urlSequence);
 
     sequenceBox.val(p.formatOutput(10, 0));
+
+    updateInfo();
   } else if (urlFasta) {
     // load from fasta=
     var fastaUrl = 'http://www.uniprot.org/uniprot/'+urlFasta+'.fasta';
@@ -34,8 +36,11 @@ function parseURL(sequenceBox){
       $('#sequenceTitle').html( fasta.title );
       var p = new Protein(fasta.sequence)
       sequenceBox.val( p.formatOutput(10, 0) );
+
+      updateInfo();
     });
   };
+
 }
 
 function parseFasta (fastaSequence){
@@ -52,9 +57,26 @@ function parseFasta (fastaSequence){
 }
 
 function updateInfo(){
-  var sequence = $('#sequenceBox').val();
+  var sequence = $('#sequenceBox').val(),
+      protein = new Protein(sequence),
+      molecularWeightDiv = $('#molecular-weight'),
+      composition = $('#composition');
+
   disableRecalculate();
-  console.log('updating Info');
+
+  molwt = protein.mw().toFixed(2);
+  molecularWeightDiv.html('Molecular Weight: '+molwt);
+
+  var compString = '<ul>',
+      compositionValues = protein.composition();
+
+  Object.keys(compositionValues).forEach(function(k,i){
+    compString += '<li>'+k+": "+compositionValues[k]+'</li>'
+  })
+  compString += '<ul>';
+  composition.html(compString);
+
+  console.log();
 }
 
 function enableRecalculate(sequenceBox){

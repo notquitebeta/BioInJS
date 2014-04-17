@@ -38,12 +38,17 @@
     </div>
   </div>
   <h1 id="title">Protein BioInfo</h1>
-  <h5 id="sequenceTitle"> </h2>
-  <textarea id="sequenceBox" spellcheck="false"> </textarea>
-  <button type="button" id="recalculateButton" class="btn btn-xs btn-warning btn-sideways disable">Re-calculate</button>
+  <section class='sequence'>
+    <h5 id="sequenceTitle"> </h5>
+    <textarea id="sequenceBox" spellcheck="false"> </textarea>
+    <button type="button" id="recalculateButton" class="btn btn-xs btn-warning btn-sideways disable">Re-calculate</button>
+  </section>
 
+  <section class="computed">
+    <span id="molecular-weight" class="alert alert-info infobox"></span>
+    <span id="composition" class="alert alert-info infobox"></span>
 
-
+  </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/prot.js"></script>
   <script src="js/scripts.js"></script>
